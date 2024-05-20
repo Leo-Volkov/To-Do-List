@@ -3,15 +3,21 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <HelloWorld msg="You did it!" />
+  <div class="app">
+    <HelloWorld msg="You did it!" />
+  </div>
 </template>
 
 <style>
 body {
-    background-color: rgb(255, 189, 199);
+  background-color: rgb(255, 189, 199);
 }
 
-h1 {
-  text-align: center;
+.app {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 </style>
