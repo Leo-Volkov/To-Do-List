@@ -38,7 +38,7 @@ export default {
   <div class="css-absolute-bottom">
     <div class="addNote">
       <div class="box_input">
-        <input class="effect-16" type="text" placeholder="" v-model="this.value_inpytNote">
+        <input class="effect-16" type="text" placeholder="" v-model="this.value_inpytNote"  @keyup.enter="addNote()">
         <label>Введите задачу...</label>
         <span class="focus-border"></span>
         <!-- <input type="text" placeholder="Введите задачу..." > -->
