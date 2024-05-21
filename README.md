@@ -28,4 +28,4 @@ npm run dev
 npm run build
 ```
 
-![snapedit_1716269374565](/assets/snapedit_1716269374565.jpeg)
+![snapedit_1716269374565](/assets/image.png)
