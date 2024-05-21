@@ -27,3 +27,5 @@ npm run dev
 ```sh
 npm run build
 ```
+
+![snapedit_1716269374565](/assets/snapedit_1716269374565.jpeg)
