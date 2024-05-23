@@ -22,7 +22,6 @@ export default {
     },
     deleteNote(index) {
       this.textNote.splice(index, 1)
-      console.log(this.textNote);
     }
   }
 }
